@@ -29,7 +29,7 @@ export const Footer = () => {
 
 
       <p className="text-lg font-semibold select-none flex items-center gap-2">
-        Made with{" "}
+        Developed with{" "}
         <span
           role="img"
           aria-label="love"
