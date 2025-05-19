@@ -189,7 +189,7 @@ export const SkillsSection = () => {
         }
       `}</style>
 
-      <section className="tech-section" id="tech-stack">
+     <section className="tech-section" id="skills">
         <h2>Tech Stack</h2>
         <div className="orbit-container" aria-label="Tech stack orbiting the mind">
           <div className="center-mind" aria-label="Mind" role="img" aria-roledescription="emoji">⚙️</div>
