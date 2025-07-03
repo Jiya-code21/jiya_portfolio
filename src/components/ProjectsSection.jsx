@@ -2,7 +2,28 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 
 const projects = [
   {
-    id: 1,
+  id: 1,
+  title: "BrainBin – Notes & Productivity App",
+  description:
+    "A clean and minimal productivity app to write and organize notes, track to-dos, and save tagged resources. Built with full-stack features including authentication and persistent storage.",
+  image: "/projects/project2.png", // Replace with actual image path if available
+  tags: ["React", "Node.js", "Express", "MongoDB", "JWT"],
+  demoUrl: "https://brainbin-frontend.onrender.com/", // Replace if different
+  githubUrl: "https://github.com/Jiya-code21/Brainbin",
+},
+  {
+    id: 2,
+    title: "AI Article Summarizer Extension",
+    description:
+      "A Chrome extension that summarizes online articles using the Gemini API. Allows users to generate brief or bullet-point summaries and copy them instantly.",
+    image: "/projects/project3.png",
+    tags: ["JavaScript", "Chrome Extension", "Gemini API"],
+    githubUrl: "https://github.com/Jiya-code21/chrome-ai-summarizer",
+  },
+
+
+  {
+    id: 3,
     title: "Simple Code Editor",
     description:
       "A browser-based code editor built with HTML, CSS, and JavaScript. It allows real-time editing and preview of HTML, CSS, and JavaScript code.",
@@ -11,25 +32,9 @@ const projects = [
     demoUrl: "https://code-editor-fubn.onrender.com/",
     githubUrl: "https://github.com/Jiya-code21/Code_Editor",
   },
-  {
-    id: 2,
-    title: "Folder-Based Image Manager",
-    description:
-      "A Google Drive–style web app to create nested folders, upload images, and manage user-specific data with authentication.",
-    image: "/projects/project2.png",
-    tags: ["React", "Node.js", "Express", "MongoDB", "JWT", "Multer"],
-    demoUrl: "https://drivenest-frontend.onrender.com/",
-    githubUrl: "https://github.com/Jiya-code21/Drivenest",
-  },
-  {
-    id: 3,
-    title: "AI Article Summarizer Extension",
-    description:
-      "A Chrome extension that summarizes online articles using the Gemini API. Allows users to generate brief or bullet-point summaries and copy them instantly.",
-    image: "/projects/project3.png",
-    tags: ["JavaScript", "Chrome Extension", "Gemini API"],
-    githubUrl: "https://github.com/Jiya-code21/chrome-ai-summarizer",
-  },
+
+
+  
 ];
 
 export const ProjectsSection = () => {
