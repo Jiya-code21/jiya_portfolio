@@ -13,7 +13,7 @@ const projects = [
 },
   {
     id: 2,
-    title: "AI Article Summarizer Extension",
+    title: "Niskarsh",
     description:
       "A Chrome extension that summarizes online articles using the Gemini API. Allows users to generate brief or bullet-point summaries and copy them instantly.",
     image: "/projects/project3.png",
