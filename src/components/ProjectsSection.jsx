@@ -7,7 +7,7 @@ const projects = [
     title: "Interviewer_ai–AI-Powered Interview Preparation Platform",
     description:
       "Developed a full-stack AI-powered interview preparation platform that enables users to upload resumes, receive personalized interview questions, identify skill gaps, and follow a structured 14-day preparation roadmap. Built using the MERN stack with OpenAI integration, secure JWT authentication, and RESTful APIs for an interactive and personalized interview preparation experience.",
-    image: "/projects/Project_1.png",
+    image: "/projects/Project_1.jpeg",
      tags: [
     "React.js",
     "Node.js",
