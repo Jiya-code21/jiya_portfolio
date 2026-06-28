@@ -1,8 +1,29 @@
 import { ArrowRight, ExternalLink, Github } from "lucide-react";
 
 const projects = [
+  
   {
-  id: 1,
+    id: 1,
+    title: "Interviewer_ai–AI-Powered Interview Preparation Platform",
+    description:
+      "Developed a full-stack AI-powered interview preparation platform that enables users to upload resumes, receive personalized interview questions, identify skill gaps, and follow a structured 14-day preparation roadmap. Built using the MERN stack with OpenAI integration, secure JWT authentication, and RESTful APIs for an interactive and personalized interview preparation experience.",
+    image: "/projects/project1.png",
+     tags: [
+    "React.js",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "JavaScript",
+    "OpenAI API",
+    "JWT Authentication",
+    "REST API",
+    "CSS"
+  ],
+    demoUrl: "https://interview-ai-frontend-ccym.onrender.com/",
+    githubUrl: "https://github.com/Jiya-code21/Interview_ai",
+  },
+  {
+  id: 2,
   title: "BrainBin – Notes & Productivity App",
   description:
     "A clean and minimal productivity app to write and organize notes, track to-dos, and save tagged resources. Built with full-stack features including authentication and persistent storage.",
@@ -12,7 +33,7 @@ const projects = [
   githubUrl: "https://github.com/Jiya-code21/Brainbin",
 },
   {
-    id: 2,
+    id: 3,
     title: "Niskarsh",
     description:
       "A Chrome extension that summarizes online articles using the Gemini API. Allows users to generate brief or bullet-point summaries and copy them instantly.",
@@ -22,16 +43,6 @@ const projects = [
   },
 
 
-  {
-    id: 3,
-    title: "Simple Code Editor",
-    description:
-      "A browser-based code editor built with HTML, CSS, and JavaScript. It allows real-time editing and preview of HTML, CSS, and JavaScript code.",
-    image: "/projects/project1.png",
-    tags: ["HTML", "CSS", "JavaScript"],
-    demoUrl: "https://code-editor-fubn.onrender.com/",
-    githubUrl: "https://github.com/Jiya-code21/Code_Editor",
-  },
 
 
   
