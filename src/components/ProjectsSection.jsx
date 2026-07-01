@@ -9,7 +9,7 @@ const projects = [
     image: "/projects/image.png", // Ensure you have a screenshot here named mpms-dashboard.png
     tags: ["MERN Stack", "Node.js", "React", "GitHub API", "RBAC", "Express.js", "MongoDB"],
     githubUrl: "https://github.com/Jiya-code21/PMS", // Make sure this URL is correct
-    liveUrl: "https://pms-frontend-1xe4.onrender.com/" // Optional: If deployed, put your live link here, otherwise remove or keep localhost
+    demoUrl: "https://pms-frontend-1xe4.onrender.com/" // Optional: If deployed, put your live link here, otherwise remove or keep localhost
 },
   {
     
