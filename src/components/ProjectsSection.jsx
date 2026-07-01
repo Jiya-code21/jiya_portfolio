@@ -1,9 +1,19 @@
 import { ArrowRight, ExternalLink, Github } from "lucide-react";
 
 const projects = [
-  
   {
     id: 1,
+    title: "MPMS — Enterprise Project Orchestration Engine",
+    description:
+      "A centralized multi-tenant academic platform featuring 3 distinct user portals (Coordinator, Mentor, Student). Integrates GitHub REST API for real-time commit tracking and progress calculation, secured with JWT, Rate Limiting, and OTP authentication across 47+ RESTful endpoints.",
+    image: "/projects/image.png", // Ensure you have a screenshot here named mpms-dashboard.png
+    tags: ["MERN Stack", "Node.js", "React", "GitHub API", "RBAC", "Express.js", "MongoDB"],
+    githubUrl: "https://github.com/Jiya-code21/PMS", // Make sure this URL is correct
+    liveUrl: "https://pms-frontend-1xe4.onrender.com/" // Optional: If deployed, put your live link here, otherwise remove or keep localhost
+},
+  {
+    
+    id: 2,
     title: "Interviewer_ai–AI-Powered Interview Preparation Platform",
     description:
       "Developed a full-stack AI-powered interview preparation platform that enables users to upload resumes, receive personalized interview questions, identify skill gaps, and follow a structured 14-day preparation roadmap. Built using the MERN stack with OpenAI integration, secure JWT authentication, and RESTful APIs for an interactive and personalized interview preparation experience.",
@@ -23,7 +33,7 @@ const projects = [
     githubUrl: "https://github.com/Jiya-code21/Interview_ai",
   },
   {
-  id: 2,
+  id: 3,
   title: "BrainBin – Notes & Productivity App",
   description:
     "A clean and minimal productivity app to write and organize notes, track to-dos, and save tagged resources. Built with full-stack features including authentication and persistent storage.",
@@ -32,15 +42,7 @@ const projects = [
   demoUrl: "https://brainbin-frontend.onrender.com/", // Replace if different
   githubUrl: "https://github.com/Jiya-code21/Brainbin",
 },
-  {
-    id: 3,
-    title: "Niskarsh",
-    description:
-      "A Chrome extension that summarizes online articles using the Gemini API. Allows users to generate brief or bullet-point summaries and copy them instantly.",
-    image: "/projects/project3.png",
-    tags: ["JavaScript", "Chrome Extension", "Gemini API"],
-    githubUrl: "https://github.com/Jiya-code21/chrome-ai-summarizer",
-  },
+ 
 
 
 
